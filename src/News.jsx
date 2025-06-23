@@ -1,14 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export default function News() {
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-semibold mb-4">Local News 📰</h2>
-      <ul className="space-y-2">
-        <li className="border p-2 rounded">🌧️ Rains expected on Sunday. Be prepared.</li>
-        <li className="border p-2 rounded">🎉 Bonalu Festival date announced: July 15</li>
-        <li className="border p-2 rounded">⚠️ Water supply issue in Ward 3 - complaint registered.</li>
-      </ul>
+    <div className="p-8">
+      <h2 className="text-2xl font-bold text-green-700">📞 Contact Us</h2>
+      <p className="text-gray-600 mt-2">Email: mana.ooru@example.com</p>
     </div>
   );
 }
