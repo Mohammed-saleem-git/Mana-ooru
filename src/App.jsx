@@ -16,7 +16,7 @@ function App() {
             <Link to="/" className="text-green-800 hover:text-green-600">Home</Link>
             <Link to="/shops" className="text-green-800 hover:text-green-600">Shops</Link>
             <Link to="/ads" className="text-green-800 hover:text-green-600">Ads</Link>
-            <Link to="/contact" className="text-green-800 hover:text-green-600">News</Link>
+            <Link to="/news" className="text-green-800 hover:text-green-600">News</Link>
           </div>
         </nav>
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shops" element={<Shops />} />
           <Route path="/ads" element={<Ads />} />
-          <Route path="/contact" element={<News />} />
+          <Route path="/news" element={<News />} />
         </Routes>
       </div>
     </Router>
