@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export default function Ads() {
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-semibold mb-4">Sponsored Ads 📢</h2>
-      <p>✨ Advertise your business here. Contact admin.</p>
+    <div className="p-8">
+      <h2 className="text-2xl font-bold text-green-700">📢 Local Ads</h2>
+      <p className="text-gray-600 mt-2">Promote services, sales, and offers in your area.</p>
     </div>
   );
 }
